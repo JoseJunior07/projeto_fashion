@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+#container{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+body{
+    font-family: tahoma, arial, sans-serif;
+}
+
+.hearder-top{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 15px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #767486;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.3s linear; /*Transição de cor do hover*/
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+#portfolio{
+    padding: 50px 100px; 
+    text-align: center;
+}
+
+#portfolio h1{
+    font-size: 36px;
+    color: #252525 ;
+}
+
+#paragraph-portfolio{
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+
+.gallery-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.gallery-text{
+    padding-top: 10px;
+}
+
+#about{
+    padding: 100px;
+    background-color: #003d52;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#about h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#about p{
+    padding-top: 35px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal; /*Tirar o itálico padrão do <address>*/
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 25px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
